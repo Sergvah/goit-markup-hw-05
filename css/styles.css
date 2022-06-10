@@ -361,12 +361,12 @@ image {
 .column-footer {
     display: flex;
     flex-direction: row;
+    align-items: baseline;
 }
 .footer-social {
     display: flex;
     flex-direction: column;
     margin-left: 70px;
-
 
 }
 .title-footer {
@@ -376,7 +376,7 @@ image {
     line-height: 1.142;
     letter-spacing: 0.03em; 
     color: #FFFFFF;
-    align-self: baseline;
+
 }
 
 /*---------------------СТРАНИЦА СТУДИЯ--------------------*/
