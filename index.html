@@ -57,7 +57,7 @@
             <h1 class="hero-title">
                 Эффективные решения для вашего бизнеса
             </h1>
-            <button class="hero-btn">Заказать услугу</button>
+            <button class="hero-btn" data-modal-open>Заказать услугу</button>
         </div>
         </section>
         <section class="section-special">
@@ -89,15 +89,21 @@
             <ul class="doing-list">
                 <li class="element-doing-list">
                     <img class="img-doing" src="./images/img.jpg" alt="Разработка программного обеспечения">
-                </li>
-                <p class="text-doing">
+                    <p class="text-doing">
                     Десктопные приложения
-                </p>
+                    </p>
+                </li>
                 <li class="element-doing-list">
                     <img class="img-doing" src="./images/img-1.jpg" alt="Тестирование мобильного приложения">
+                    <p class="text-doing">
+                    Мобильные приложения
+                    </p>
                 </li>
                 <li class="element-doing-list">
                     <img class="img-doing" src="./images/img-2.jpg" alt="Работа с цветовой гаммой">
+                    <p class="text-doing">
+                    Дизайнерские решения
+                </p>
                 </li>
             </ul>
         </div>
@@ -377,5 +383,16 @@
     </div>
     </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="btn-modal-close" data-modal-close >
+                <svg class="modal-btn-icon" width="18px"
+                            height="18px">
+                <use href="./images/symbol-defs.svg#icon-close-black-18dp-2-1"></use> 
+            </svg>
+            </button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
