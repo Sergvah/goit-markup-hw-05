@@ -66,7 +66,7 @@ image {
     letter-spacing: 0.03em;
 
     text-decoration:none;
-    
+
     color: inherit;
 
     padding-top: 24px;
@@ -570,20 +570,24 @@ image {
 }
 .doing-list {
     display: flex;
+
     width: 370px;
 }
 .section-comands {
     padding-top: 94px;
     padding-bottom: 94px;
+
     background-color: var(--secondary-bgd-color);
 }
 .comands-list {
     display: flex;
 }
 .comands-item {
-    background-color: var(--top-color);
-    margin-right: 30px;
     text-align: center;
+
+    margin-right: 30px;
+
+    background-color: var(--top-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;   
 }
@@ -592,17 +596,22 @@ image {
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+
     margin-bottom: 10px;
 }
 .comands-list-text {
     font-size: 16px;
     line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    margin-bottom: 16px;
+
     color: var(--header-adress-color);
-    letter-spacing: 0.03em; 
 }
 
 .img-comands {
     display: block;
+
     max-width: 100%;
     height: auto;
 }
@@ -618,12 +627,13 @@ image {
     display: inline-flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 16px;
+
     background-color: #FFFFFF;
 }
 .comands-item-icon {
     display: inline-flex;
     justify-content: center;
+
     margin-right: 10px; 
     
 }
@@ -639,10 +649,13 @@ image {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+
     height: 44px;
     width: 44px; 
+
     border-radius: 50%;
     fill: #AFB1B8;
+
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -661,7 +674,9 @@ image {
     display: inline-flex;
     flex-direction: row;
     align-items: center;
+
     margin-top: 50px;
+
     background-color: #FFFFFF;
 }
 .item-regular-customers {
@@ -674,6 +689,7 @@ image {
 
 .link-regular-items {
     display: inline-flex;
+    justify-content: center;
     align-items: center;
     fill: #AFB1B8;
     border: 1px solid #AFB1B8;
@@ -681,7 +697,7 @@ image {
     width: 170px;
     outline: transparent;
     height: 92px;
-    justify-content: center;
+
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-regular-items:hover,
@@ -692,9 +708,11 @@ image {
 .backdrop {
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
-    position: fixed;
     top: 0;
+
+    background-color: rgba(0, 0, 0, 0.2);
+    
+    position: fixed;
     transition: opacity 250ms, visibility 250ms;
 }
 .modal {
